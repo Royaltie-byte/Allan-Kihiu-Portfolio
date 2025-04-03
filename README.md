@@ -16,13 +16,8 @@ Welcome to my **Personal Portfolio**! This project showcases my web development 
 
 # Live Demo
 
-🔗 [View Portfolio Live](https://your-portfolio-live-link.com)
+🔗 [View Portfolio Live](https://allan-kihiu-portfolio.netlify.app)
 
-## 📸 Screenshots
-
-![Portfolio Screenshot](screenshots/portfolio-preview.png)
-
-> Add multiple screenshots in the `screenshots` folder for better visualization.
 
 ## 🛠️ Technologies Used
 
@@ -31,31 +26,27 @@ Welcome to my **Personal Portfolio**! This project showcases my web development 
 
 ## 📂 Project Structure
 
-```
-📦 portfolio-project
- ┣ 📂 assets
- ┃ ┣ 📂 images
- ┃ ┣ 📂 css
- ┃ ┗ 📂 fonts
- ┣ 📜 index.html
- ┣ 📜 about.html
- ┣ 📜 projects.html
- ┣ 📜 contact.html
- ┗ 📜 README.md
-```
 
+📦 portfolio-project
+ 📂 images
+ 📂 css
+ 📜 home.html
+ 📜 services.html
+ 📜 projects.html
+ 📜 contact.html
+ 📜 README.md
 ## 📥 Installation & Setup
 
 To run this project locally, follow these steps:
 
 1️⃣ **Clone the Repository**
-```sh
- git clone https://github.com/yourusername/your-portfolio.git
- cd your-portfolio
-```
+sh
+ git clone https://github.com/Royaltie-byte/Allan-Kihiu-Portfolio.git
+ cd Allan-Kihiu-Portfolio
+
 
 2️⃣ **Open in Browser**
-Simply open the `index.html` file in your favorite web browser.
+Simply open the `home.html` file in your favorite web browser.
 
 ## 📌 How to Use
 
@@ -67,9 +58,9 @@ Simply open the `index.html` file in your favorite web browser.
 
 Want to personalize this portfolio? Here’s how:
 
-- Update content in `index.html`.
-- Modify styles in `css/style.css`.
-- Replace images in `assets/images/`.
+- Update content in `home.html`.
+- Modify styles in `style.css`.
+- Replace images in `images/`.
 
 ## 🤝 Contributing
 
@@ -86,8 +77,8 @@ This project is licensed under the **MIT License**. Feel free to modify and use 
 
 ---
 💡 **Let's Connect!**
-- 🌐 [Portfolio](https://your-portfolio-live-link.com)
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐦 [Twitter](https://twitter.com/yourprofile)
+- 🌐 [Portfolio](https://allan-kihiu-portfolio.netlify.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/allan-kihiu)
+
 
 ⭐ Don't forget to **star** this repo if you like it!

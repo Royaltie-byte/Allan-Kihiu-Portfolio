@@ -94,7 +94,7 @@ main{
     font-weight: bold;
     font-size: 30px;
     background-size: 100% 100%;
-    background: linear-gradient(to right , blue,red,pink,cyan);
+    background: linear-gradient(to right ,cyan,violet);
     color: transparent;
     -webkit-text-fill-color: transparent !important;
     background-clip: text;
@@ -103,17 +103,17 @@ main{
 }
 @keyframes gradient-animation{
     0%{
-        background: linear-gradient(to right,blue,red,pink,cyan);
+        background: linear-gradient(to right,cyan,violet);
         background-size: 100% 100%;
         background-clip: text;
     }
     50%{
-        background: linear-gradient(to right, cyan,pink,red,lightblue);
+        background: linear-gradient(to right,pink,cyan);
         background-size: 100% 100%;
         background-clip: text;
     }
 100%{
-    background: linear(to right, blue ,red,pink,cyan);
+    background: linear(to right,cyan ,violet);
     background-size: 100% 100%;
     background-clip: text;
 }
@@ -184,13 +184,11 @@ marquee{
     background: linear-gradient(300deg,lightblue,white);
 }
 .contact-form button{
-    width: 80%;
+    width: 100%;
     border: none;
     border-radius: 50px;
     height: 50px;
     background: linear-gradient(270deg,pink,cyan);
-    margin-left: 54px;
-    margin-right: 20px;
     font-size: 20px;
     
 
@@ -198,6 +196,24 @@ marquee{
 .contact-form button:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+.homebase{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: ce;
+    
+}
+.inner-homebase{
+    height: 150px;
+    width: 50%;
+    padding: 5px;
+    border: solid 1px aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+    border-color: aqua;
 }
 .social-icons{
     display: flex;
@@ -229,6 +245,30 @@ marquee{
     }
 
 }
+
+
+
+/* Styles for mobile devices (screen width 768px or less) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    main {
+        padding: 15px; 
+    }
+
+    .nav-bar {
+        display: block; 
+    }
+
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
 
 

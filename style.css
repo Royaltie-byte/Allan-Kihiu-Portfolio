@@ -251,7 +251,7 @@ marquee{
 /* Styles for mobile devices (screen width 768px or less) */
 @media only screen and (max-width: 768px) {
     body {
-        font-size: 16px; 
+        font-size: 12px; 
     }
 
     main {
@@ -259,7 +259,17 @@ marquee{
     }
 
     .navbar {
-        display: block; 
+        display:block; 
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    .navbar nav{
+        display: block;
+    }
+    .navbar ul{
+        margin-left: 100px;
+        display: block;
     }
 
     

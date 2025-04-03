@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Kihiu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/android-chrome-192x192.png">
+</head>
+<body>
+    <div class="navbar">
+        <h3 class="subtitle" >Contact </h3>
+        <nav >
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a>  </li>
+                <li><a href="projects.html">Projects</a>  </li>
+                <li><a href="contact.html">Contact</a>  </li>
+            </ul>
+        </nav>
+
+    </div>
+    <main>
+       
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2 class="heading">Get in Touch</h2>
+                <input type="hidden" name="access_key" value="1d15b8a4-91a1-4f5e-9294-bbbee5e6c25f">
+                <div class="input">
+                    <label for="name">Name: </label>
+                    <input type="text" name="text" class="contact-input" placeholder="Your name" required>
+                </div>
+                <div class="input">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" class="contact-input" placeholder="example@gmail.com" required>
+                </div>
+                <br>
+                <textarea name="message"  placeholder="Type your message here" required></textarea>
+                <br>
+                <button type="submit">Send message</button>
+
+
+            </form>
+        </div>
+    </main>
+
+    <hr>
+    <footer>
+        <marquee scrollamount="5" behaviour="scroll" direction="left" >Transforming ideas into stunning websites ! <br> &copy;Allan Kihiu . All rights reserved .</marquee>
+    </footer>
+    
+</body>
+</html>

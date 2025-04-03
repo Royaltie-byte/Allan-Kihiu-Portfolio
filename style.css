@@ -271,6 +271,9 @@ marquee{
         margin-left: 100px;
         display: block;
     }
+    .navbar ul li{
+        padding: 7px;
+    }
 
     
     img {

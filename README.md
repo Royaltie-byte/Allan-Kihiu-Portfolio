@@ -2,6 +2,7 @@
   Personal Portfolio
 
 ![Portfolio Screenshot](screenshot/homepage.png)
+![Portfolio Screenshot](screenshot/mobile homepage.png)
 
 Welcome to my **Personal Portfolio**! This project showcases my web development skills, projects, and experience in an interactive and visually appealing manner. It is built using **HTML and CSS**, ensuring a fast and responsive design across all devices.
 

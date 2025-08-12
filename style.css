@@ -3,23 +3,74 @@
     position: sticky;
     z-index: 10000;
     align-items: center;
+    justify-content: space-between;
     top: 0;
     background-color: rgb(1, 1, 18);
 }
 .navbar ul{
     display: flex;
-    margin-left: 200px;
+    
 }
   nav li{
     list-style: none;
 }
 .navbar a{
     text-decoration: none;
-    padding: 30px;
+    padding: 60px;
     color:violet;
 }
 .navbar a:hover{
     color: cyan;
+}
+.hamburger{
+    float:right;
+    display:none;
+    cursor:pointer;
+}
+.bar{
+    background-color:white;
+    width: 30px;
+    height:3px;
+    margin: 5px;
+    display:block;
+}
+.phone-navbar{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(56, 56, 101);
+    align-items:center;
+    justify-content:center;
+    left:-100%;
+    z-index:10000;
+
+      
+}
+.phone-navbar ul{
+    list-style:none;
+    margin-left: 0;
+    
+}
+.phone-navbar ul li{
+    color:white;
+    margin: 5px;
+    width: 100%;
+    padding:5px;
+
+}
+.phone-navbar ul li a{
+    text-decoration:none ;
+    padding: 20px;
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+    cursor:pointer;
+}
+.phone-navbar ul li :hover{
+    background-color: rgb(82, 82, 150);;
+    color: cyan;
+    cursor:pointer;
 }
 .name {
     color: violet;
@@ -250,6 +301,9 @@ marquee{
 
 /* Styles for mobile devices (screen width 768px or less) */
 @media only screen and (max-width: 768px) {
+    .hamburger{
+        display:block;
+    }
     body {
         font-size: 12px; 
         margin: 0px;
@@ -260,27 +314,57 @@ marquee{
     }
 
     .navbar {
-        display:block; 
+        display:flex;
         margin-left: 0px;
         width: 100%;
+        justify-content: space-between;
         
     }
     .navbar nav{
         display: block;
     }
     .navbar ul{
-        margin-left: 100px;
-        display: block;
+        display:none;
     }
-    .navbar ul li{
-        padding: 7px;
+        
+    .navbar ul li:hover{
+        background-color: rgb(36, 15, 15);
     }
+    
 
     
     img {
         max-width: 100%;
         height: auto;
     }
+    .phone-navbar.active{
+        left:0;
+    }
+    .phone-navbar ul li a{
+        padding: 20px;
+        font-size: 18px;
+
+    }
+    .phone-navbar ul li a:hover{
+        color:cyan;
+        cursor:pointer;
+
+    }
+    
+    main.active{
+        opacity:0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform:rotate(45deg) translateY(12px);
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform:rotate(-45deg) translateY(-12px);
+    }
+
+    
 }
 
 

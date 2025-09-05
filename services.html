@@ -17,6 +17,7 @@
                 <li><a href="services.html">Services</a>  </li>
                 <li><a href="projects.html">Projects</a>  </li>
                 <li><a href="contact.html">Contact</a>  </li>
+                <li><a href="#" onclick="window.chatbase('open')">Chat</a></li>
             </ul>
         </nav>
         <div class="hamburger">
@@ -32,6 +33,7 @@
                 <li><a href="services.html">Services</a>  </li>
                 <li><a href="projects.html">Projects</a>  </li>
                 <li><a href="contact.html">Contact</a>  </li>
+                <li><a href="#" onclick="window.chatbase('open')">Chat</a></li>
             </ul>
 
     </div>
@@ -79,6 +81,10 @@
     <footer>
         <marquee scrollamount="5" behaviour="scroll" direction="left" >Transforming ideas into stunning websites ! <br> &copy;Allan Kihiu . All rights reserved .</marquee>
     </footer>
+
+    <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="oHzfsghgoowXahqS7k-TD";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
     
 </body>
 </html>
